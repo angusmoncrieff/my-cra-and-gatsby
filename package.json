@@ -1,0 +1,12 @@
+{
+    "name": "cra-gatsby",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "run:react": "cd packages/react-app && yarn start",
+        "run:gatsby": "cd packages/gatsby-app && yarn develop",
+        "run:all": "npm-run-all --parallel run:react run:gatsby"
+    }
+}
