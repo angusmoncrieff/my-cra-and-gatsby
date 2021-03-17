@@ -1,5 +1,8 @@
 {
     "name": "@cra-gatsby/shared",
     "version": "0.0.1",
-    "private": true
+    "private": true,
+    "dependencies": {
+        "npm-run-all": "^4.1.5"
+    }
 }
